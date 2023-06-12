@@ -16,7 +16,7 @@ AND 10 is entered into the second input
 THEN 2 should be displayed at the bottom
  
 ## Unresolved Stories
-### Scenario: Dividing numbers result in a decimal number
+### [x]Scenario: Dividing numbers result in a decimal number
 
 GIVEN that the submit button is pressed
 WHEN 20 is entered into the first input
@@ -24,7 +24,7 @@ AND 3 is entered into the second input
 THEN the number 6 with no decimal should be shown
  
 
-### Scenario: Validation when values are missing
+### [x]Scenario: Validation when values are missing
 
 GIVEN that the submit button is pressed
 WHEN either or both inputs are empty
@@ -32,7 +32,7 @@ THEN the divisions should not be done
 AND the following should be displayed: “Division not performed. Both values are required in inputs. Try again”.
  
 
-### Scenario: An invalid division should log an error in the console
+### []Scenario: An invalid division should log an error in the console
 
 GIVEN that the submit button is pressed
 WHEN 20 is entered into the first input
